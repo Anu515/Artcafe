@@ -7,11 +7,14 @@ exports.getBlog = async (req, res) => {
 };
 
 exports.posBlog = async (req, res) => {
-    const { department } = req.body;
-    const { title } = req.body;
-    const { document } = req.body;
+    const { name } = req.body;
+    const { mobile } = req.body;
+    const { email } = req.body;
+    const { username } = req.body;
+    const { password } = req.body;
+    const { confirm } = req.body;
     const blog = new Blog({
-        department, title, document
+        name, mobile, email, username, password, confirm
     });
     const createdBlog = await blog.save();
     res.status(201).json({

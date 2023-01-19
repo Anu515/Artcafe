@@ -18,30 +18,30 @@
 
             <!-- Sign up -->
             <h1 class="modal-title">Signup</h1>
-            <form [formGroup]="form">
+            <form [formGroup]="form" (submit)="onSubmit(form.value)">
                 <div class="sec">
                     <label class="label">Name</label>
-                    <input type="text" formControlName="department" class="form-control" ngModel>
+                    <input type="text" formControlName="name" class="form-control" ngModel>
                 </div>
                 <div class="sec">
                     <label class="label">Mobile Number</label>
-                    <input type="text" formControlName="title" class="form-control" ngModel>
+                    <input type="text" formControlName="mobile" class="form-control" ngModel>
                 </div>
                 <div class="sec">
                     <label class="label">Email Address</label>
-                    <input type="text" formControlName="document" class="form-control" ngModel>
+                    <input type="text" formControlName="email" class="form-control" ngModel>
                 </div>
                 <div class="sec">
                     <label class="label">Username</label>
-                    <input type="text" formControlName="document" class="form-control" ngModel>
+                    <input type="text" formControlName="username" class="form-control" ngModel>
                 </div>
                 <div class="sec">
                     <label class="label">Password</label>
-                    <input type="text" formControlName="document" class="form-control" ngModel>
+                    <input type="text" formControlName="password" class="form-control" ngModel>
                 </div>
                 <div class="sec">
                     <label class="label">Confirm password</label>
-                    <input type="text" formControlName="document" class="form-control" ngModel>
+                    <input type="text" formControlName="confirm" class="form-control" ngModel>
                 </div>
 
                 <div class="modal-footer">
