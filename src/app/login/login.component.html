@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="body">
+
+        <div class="header">
+            <div class="title">
+                <h1>The ArtCafe</h1>
+            </div>
+            <div class="nav">
+                <button class="btn1" routerLink="/">Home</button>
+                <button class="btn1" routerLink="/exabout">About Us</button>
+                <button class="btn1" routerLink="/excontact">Contact Us</button>
+                <button class="btn2" routerLink="/login">Login</button>
+                <button class="btn3" routerLink="/signup">SIGN UP</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1 class="logtext">Login </h1>
+            <hr>
+            <form class="form-signin" (ngSubmit)="onsubmit(signInForm)" #signInForm="ngForm">
+                <h3 class="signtext">Please sign in</h3>
+                <div class="email">
+                    <input class="fill1" type="email" name="email" placeholder="Enter Email" id="floatingInput" required
+                        autofocus ngModel>
+                </div>
+                <div class="password">
+                    <input class="fill2" type="password" name="password" placeholder="Enter Password"
+                        id="floatingPassword" required ngModel>
+                </div>
+
+                <div class="text">
+                    <input class="tik" type="checkbox">
+                    <label>Remember me</label>
+                </div>
+
+                <div class=" end">
+                    <button class="btn5" type="submit">Sign in</button>
+                    <a>Password lost?</a>
+                </div>
+            </form>
+
+            <div class="alert alert-success" role="alert" *ngIf="isFormInvalid">
+                Incorrect Username/Password!..
+            </div>
+
+        </div>
+
+    </div>
+</div>

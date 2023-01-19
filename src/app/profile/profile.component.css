@@ -1,0 +1,136 @@
+.header{
+    background-color: rgb(79, 79, 78);
+    padding: 1rem;
+}
+.title,.nav{
+    display: inline-block;
+}
+.nav{
+    margin-left: 15rem;
+}
+.title{
+    margin-left: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 2.5rem;
+    width: 80px;
+    border-radius: 15px;
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn2{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 3.5rem;
+    width: 65px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 18rem;
+}
+.btn3{
+    background-color: rgb(104, 4, 4);
+    color: #fff;
+    height: 2rem;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn1:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn2:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn3:hover{
+    background-color: rgb(15, 14, 14)
+}
+.content{
+    background-color: rgb(157, 235, 233);
+    margin-left: 20rem;
+    width: 800px;
+    padding: 12px;
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding-bottom: 2rem;
+}
+.pic {
+    width: 120px;
+    height: 120px;
+    margin-left: 10rem;
+    background-color: yellow;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+.pic,.icon{
+    display: inline-block;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.name{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    color: rgb(121, 5, 5);
+}
+.info{
+    margin-top: -1rem;
+    font-size: 16px;
+}
+.detail{
+    margin-left: 10rem;
+}
+.icon{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: -1rem;
+    background-color: darkblue;
+    padding: 3px;
+    border-radius: 5px;
+}
+.editbtn{
+    background-color: darkblue;
+    color: #fff;
+    height: 1.8rem;
+    width: 110px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-left: 10rem;
+}
+.act{
+    color: rgb(7, 54, 5);
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.addbtn{
+    background-color: rgb(98, 2, 2);
+    color: #fff;
+    height: 1.8rem;
+    width: 110px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-left: 4rem;
+    display: inline-block;
+}
+.icon:hover{
+    background-color: rgb(226, 4, 82);
+}
+.editbtn:hover{
+    background-color: rgb(226, 4, 82);
+}
+.addbtn:hover{
+    background-color: rgb(25, 119, 7);
+}

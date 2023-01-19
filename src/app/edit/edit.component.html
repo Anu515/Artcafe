@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="body">
+
+        <div class="header">
+            <div class="title">
+                <h1>The ArtCafe</h1>
+            </div>
+            <div class="nav">
+                <button class="btn1" routerLink="/home">Menu</button>
+                <button class="btn1" routerLink="/about">About</button>
+                <button class="btn1" routerLink="/contact">Contact</button>
+                <button class="btn1" routerLink="/artist">Artist</button>
+                <button class="btn1" routerLink="/history">History</button>
+                <button class="btn2" routerLink="/profile">Profile</button>
+                <button class="btn3" routerLink="/">Logout</button>
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <!-- EDit Details-->
+            <h1 class="modal-title">Edit Details</h1>
+            <form [formGroup]="form">
+                <div class="sec">
+                    <label class="label">Job</label>
+                    <input type="text" formControlName="department" class="form-control" ngModel>
+                </div>
+                <div class="sec">
+                    <label class="label">Home Town</label>
+                    <input type="text" formControlName="title" class="form-control" ngModel>
+                </div>
+                <div class="sec">
+                    <label class="label">Address</label>
+                    <input type="text" formControlName="document" class="form-control" ngModel>
+                </div>
+                <div class="sec">
+                    <label class="label">Mobile</label>
+                    <input type="text" formControlName="document" class="form-control" ngModel>
+                </div>
+                <div class="sec">
+                    <label class="label">Email</label>
+                    <input type="text" formControlName="document" class="form-control" ngModel>
+                </div>
+                <div class="sec">
+                    <label class="label">Facebook</label>
+                    <input type="text" formControlName="document" class="form-control" ngModel>
+                </div>
+                <div class="sec">
+                    <label class="label">Insta</label>
+                    <input type="text" formControlName="document" class="form-control" ngModel>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="add" routerLink="/edit">Edit</button>
+                    <button type="button" class="close" routerLink="/profile">Close</button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>

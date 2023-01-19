@@ -1,0 +1,119 @@
+.header{
+    background-color: rgb(79, 79, 78);
+    padding: 1rem;
+}
+.title,.nav{
+    display: inline-block;
+}
+.nav{
+    margin-left: 15rem;
+}
+.title{
+    margin-left: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 2.5rem;
+    width: 80px;
+    border-radius: 15px;
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn2{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 3.5rem;
+    width: 65px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 18rem;
+}
+.btn3{
+    background-color: rgb(104, 4, 4);
+    color: #fff;
+    height: 2rem;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn1:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn2:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn3:hover{
+    background-color: rgb(15, 14, 14)
+}
+.content{
+    background-color: rgb(157, 235, 233);
+    margin-left: 25rem;
+    width: 600px;
+    padding: 12px;
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding-bottom: 2rem;
+}
+.sec{
+    margin-left: 2rem;
+    width: 10rem;
+    margin-top: 1rem;
+}
+.form-control{
+    margin-left: 2rem;
+    padding: 8px;
+    width: 25rem;
+    border-radius: 20px;
+}
+.choose{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.label{
+    font-size: 20px;
+}
+.label2{
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.modal-title{
+    margin-left: 10rem;
+}
+.modal-footer{
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+.add{
+    background-color: darkblue;
+    margin-left: 2rem;
+    color: #fff;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.close{
+    background-color: rgb(63, 63, 66);
+    margin-left: 2rem;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.add:hover{
+    background-color: rgb(4, 112, 29)
+}
+.close:hover{
+    background-color: rgb(9, 1, 1)
+}
+
+

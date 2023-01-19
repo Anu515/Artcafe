@@ -1,0 +1,147 @@
+.header{
+    background-color: rgb(79, 79, 78);
+    padding: 1rem;
+}
+.title,.nav{
+    display: inline-block;
+}
+.nav{
+    margin-left: 10rem;
+}
+.title{
+    margin-left: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(65, 23, 6);
+    color: white;
+    height: 2rem;
+    width: 120px;
+    border-radius: 10px;
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn2{
+    background-color: rgb(172, 98, 3);
+    color: white;
+    height: 2rem;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 25rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn3{
+    background-color: rgb(172, 98, 3);
+    color: white;
+    height: 2rem;
+    width: 120px;
+    border-radius: 10px;
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn1:hover{
+    background-color: rgb(135, 42, 5);
+    color: black;
+}
+.btn2:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn3:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.content{
+    background-color: rgb(157, 235, 233);
+    margin-left: 9rem;
+    width: 1320px;
+    padding: 12px;
+    margin-top: 1rem;
+}
+.abt{
+    margin-left: 5rem;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+    margin-left: 28rem;
+    margin-top: -3rem;
+}
+.pic1{
+    width: 1200px;
+    height: 500px;
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.pic2{
+    width: 300px;
+    height: 150px;
+    margin-left: 3rem;
+    display: inline-block;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.text1{
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-weight: bold;
+}
+.details{
+    margin-top: 1rem;
+    padding: 15px;
+}
+.info{
+    display: inline-block;
+    margin-left: 2rem;
+    margin-right: 6rem;
+}
+.det{
+    display: inline-block;
+    margin-left: 2rem;
+
+}
+.set{
+    margin-left: 5rem;
+}
+.set2{
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+.message{
+    margin-left: 25rem;
+    margin-top: 3rem;
+    background-color: rgb(98, 4, 41);
+    width: 300px;
+    padding: 10px;
+    border-radius: 40px;
+}
+.line{
+    margin-top: -1rem;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.line1{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.foot{
+    font-size: 30px;
+    color: rgb(98, 4, 41);
+    margin-left: 29rem;
+}

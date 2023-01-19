@@ -1,0 +1,152 @@
+.header{
+    background-color: rgb(79, 79, 78);
+    padding: 1rem;
+}
+.title,.nav{
+    display: inline-block;
+}
+.nav{
+    margin-left: 15rem;
+}
+.title{
+    margin-left: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 2.5rem;
+    width: 80px;
+    border-radius: 15px;
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn2{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 3.5rem;
+    width: 65px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 18rem;
+}
+.btn3{
+    background-color: rgb(104, 4, 4);
+    color: #fff;
+    height: 2rem;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn1:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn2:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn3:hover{
+    background-color: rgb(15, 14, 14)
+}
+.content{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 9rem;
+}
+.subhead{
+    padding: 1rem;
+    background-color: aqua;
+}
+.subtitle,.subnav{
+    display: inline-block;
+}
+.subnav{
+    margin-left: 5rem;
+}
+.subtitle{
+    font-weight: bolder;
+    margin-left: 5rem;
+}
+.btn4{
+    background-color: rgb(187, 7, 100);
+    color: #fff;
+    height: 1.8rem;
+    width: 150px;
+    border-radius: 17px;
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn4:hover{
+    background-color: rgb(240, 5, 189);
+    color: darkblue;
+}
+.subbody{
+    background-color: wheat;
+    padding: 1rem;
+}
+h2{
+    margin-left: 3rem;
+}
+.item {
+    display: inline-block;
+    width: 220px;
+    height: 150px;
+    margin-left: 9px;
+    background-color: yellow;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+h4{
+    margin-left: 4rem;
+    color: darkblue;
+}
+.row{
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.more{
+    color: darkblue; 
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.order{
+    background-color: rgb(3, 5, 69);
+    color: #fff;
+    padding: 5px;
+    margin-left: 63rem;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.order:hover{
+    background-color: rgb(29, 79, 3)
+}
+.more1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    color:rgb(3, 5, 69);
+}
+.more2{
+    margin-left: 3rem;
+    color:rgb(232, 9, 76);
+}
+.more3{
+    color: darkblue; 
+    margin-left: 5rem;
+}

@@ -1,0 +1,87 @@
+.header{
+    background-color: rgb(79, 79, 78);
+    padding: 1rem;
+}
+.title,.nav{
+    display: inline-block;
+}
+.nav{
+    margin-left: 15rem;
+}
+.title{
+    margin-left: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 2.5rem;
+    width: 80px;
+    border-radius: 15px;
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn2{
+    background-color: rgb(252, 0, 130);
+    color: #fff;
+    height: 3.5rem;
+    width: 65px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 18rem;
+}
+.btn3{
+    background-color: rgb(104, 4, 4);
+    color: #fff;
+    height: 2rem;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn1:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn2:hover{
+    background-color: rgb(240, 165, 66);
+    color: red;
+}
+.btn3:hover{
+    background-color: rgb(15, 14, 14)
+}
+.content{
+    background-color: rgb(157, 235, 233);
+    margin-left: 9rem;
+    width: 1320px;
+    padding: 12px;
+    margin-top: 1rem;
+}
+.abt{
+    margin-left: 5rem;
+}
+.pic {
+    width: 700px;
+    height: 300px;
+    margin-left: 17rem;
+    background-color: yellow;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.text1{
+    font-size: 20px;
+}
+.para{
+    margin: 2rem;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 1rem;
+}
